@@ -50,5 +50,6 @@ public class ActivityController {
     @DeleteMapping("/{id}")
     public Activity delete(@PathVariable("id") int id){
         return service.delete(id);
+        
     }
 }
