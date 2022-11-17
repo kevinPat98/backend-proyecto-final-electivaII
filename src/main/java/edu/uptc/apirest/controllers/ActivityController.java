@@ -16,7 +16,7 @@ import edu.uptc.apirest.services.ActivityService;
 
 @RestController
 @RequestMapping("/activities")
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "https://front-proyecto-final-electiva-ii.vercel.app/")
 public class ActivityController {
     
     @Autowired

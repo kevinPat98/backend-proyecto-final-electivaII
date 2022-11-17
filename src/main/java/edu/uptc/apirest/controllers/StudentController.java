@@ -16,7 +16,7 @@ import edu.uptc.apirest.services.StudentService;
 
 @RestController
 @RequestMapping("/students")
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "https://front-proyecto-final-electiva-ii.vercel.app/")
 public class StudentController {
     
     @Autowired
